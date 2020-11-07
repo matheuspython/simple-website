@@ -1,0 +1,27 @@
+section.section-top {
+    background-image: url('https://image.freepik.com/vetores-gratis/codigo-de-programacao-fundo-de-codificacao-ou-hacker-icone-de-codigo-de-programacao-feito-com-codigo-binario_127544-815.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 80vh;
+}
+
+.text-wraper-section {
+    max-width: 450px;
+    float: right;
+    color: white;
+    margin: 100px 100px;
+}
+
+.text-wraper-section h2 {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.text-wraper-section p {
+    font-size: 17px;
+    font-weight: 250;
+}
+
+.text-wraper-section li {
+    font-weight: 250;
+}
