@@ -1,0 +1,111 @@
+/* header/ menu / menu-mobile */
+
+
+/*header*/
+
+header {
+    width: 100%;
+    background-color: rgb(40, 177, 182);
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header li a {
+    color: black;
+}
+
+header li a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2%;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.logo {
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/001/204/001/small/mouse-computer.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+}
+
+
+/*end header*/
+
+
+/*menu-desktop*/
+
+.container-desktop-menu ul {
+    position: relative;
+    top: 10px;
+}
+
+.container-desktop-menu nav ul li {
+    display: inline-block;
+    font-size: 17px;
+    padding-left: 15px;
+    text-transform: uppercase;
+}
+
+.container-desktop-menu {}
+
+
+/*end menu desktop*/
+
+
+/*menu-mobile*/
+
+.container-mobile {
+    margin-top: 5px;
+    display: none;
+    background-image: url('../images/menu-mobile.svg');
+    background-size: cover;
+    height: 35px;
+    width: 35px;
+}
+
+.container-mobile ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    width: 100%;
+    border: 1px solid;
+}
+
+.container-mobile li {
+    text-align: center;
+}
+
+.container-mobile li a {
+    text-align: center;
+}
+
+
+/*end menu-mobile*/
+
+
+/*end header/ menu / menu-moble */
+
+
+/*media queryes*/
+
+@media screen and (max-width: 768px) {
+    .container-mobile {
+        display: block;
+    }
+    .container-desktop-menu {
+        display: none;
+    }
+}
