@@ -58,8 +58,6 @@ header li a:hover {
     text-transform: uppercase;
 }
 
-.container-desktop-menu {}
-
 
 /*end menu desktop*/
 
@@ -67,6 +65,7 @@ header li a:hover {
 /*menu-mobile*/
 
 .container-mobile {
+    cursor: pointer;
     margin-top: 5px;
     display: none;
     background-image: url('../images/menu-mobile.svg');
@@ -77,15 +76,20 @@ header li a:hover {
 
 .container-mobile ul {
     display: none;
+    background-color: aliceblue;
     position: absolute;
     left: 0;
-    top: 50px;
+    top: 70px;
     width: 100%;
     border: 1px solid;
 }
 
 .container-mobile li {
     text-align: center;
+}
+
+.container-mobile li:hover {
+    background-color: rgb(229, 231, 231);
 }
 
 .container-mobile li a {
