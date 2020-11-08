@@ -25,3 +25,29 @@ section.section-top {
 .text-wraper-section li {
     font-weight: 250;
 }
+
+section#aboutme {
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(20, 109, 109);
+}
+
+.container-about-me {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.matheus-box {
+    height: 355px;
+}
+
+.myphoto {
+    background-image: url('../images/my-photo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
